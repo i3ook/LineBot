@@ -17,7 +17,7 @@ if (!is_null($events['events'])) {
 		if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
 			// Get text sent
 			//$text = 'อันนี้คือยูสเซอร์ไอดี: ' . $event['source']['userId'];
-			$text = $events;
+			$text = 'ตอบข้อความธรรมดา';
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 
