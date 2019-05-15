@@ -48,4 +48,5 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-echo "OK";
+//echo "OK";
+http_response_code(200);
